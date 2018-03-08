@@ -1,0 +1,10 @@
+h2 {
+    font-size: 40px;
+}
+ul {
+    width: 300px;
+    text-align: left;
+    font-size: x-large;
+    padding-left: 10%;
+    list-style-type: none;
+}

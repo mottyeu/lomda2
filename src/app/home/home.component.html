@@ -1,0 +1,14 @@
+
+<h2>hello {{name}}</h2>
+<h3 *ngIf="discount >0;else noDiscount">only now, at {{currentDate | date: 'd,M,yy'}} - {{discount}}% discount on all products</h3>
+
+
+<ng-template #noDiscount>
+  <h3>אין הנחות</h3>
+</ng-template>
+
+<ul>
+	<li *ngFor="let c of categories">{{c}}</li>
+
+</ul>
+
